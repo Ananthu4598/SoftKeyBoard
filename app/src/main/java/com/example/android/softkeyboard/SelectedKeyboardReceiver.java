@@ -6,7 +6,7 @@ import android.content.Intent;
 
 import static android.content.Intent.ACTION_INPUT_METHOD_CHANGED;
 
-public class InputMethodChangeReceiver extends BroadcastReceiver {
+public class SelectedKeyboardReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
